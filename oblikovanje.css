@@ -1,30 +1,37 @@
 
 .body {
-	background-color: #7f8c8d;
-	
+	background-color:#7f8c8d ;
+
 }
 .col-sm-3 {
 	padding-bottom: 1px; 
 }
 .container-fluid {
 	width: 60%;
+	background-color:  #bdc3c7;
 }
 .container-fluid h1 {
 	text-align: center;
 	padding: 2%;
+	font-family: "Julius Sans One", sans-serif; 
+	font-weight: 600;
+}
+:not(.container-fluid h1, #novoOpravilo){
+	font-weight: 400;
 }
 .add {
 	display: none;
 }
 #novoOpravilo {
 	display: table;
-	margin: 20px auto;
+	margin: 20px auto 40px auto;
 	border-radius: 20px;
 
 }
 #vnosOpravila, #izbiraRoka, #izbiraKategorije {
 	font-weight: 400;
 }
+
 #dodajOpravilo {
 	float: right;
 }
