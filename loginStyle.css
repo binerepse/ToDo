@@ -1,0 +1,23 @@
+.body {
+	font-weight: 400;
+	background-color: #6c7a89;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.container-fluid {
+	width: 60%;
+	margin: 5% auto;
+	background-color: #bdc3c7;
+}
+.container-fluid h1 {
+	text-align: center;
+	font-size: 1000%;
+}
+.btn-default a {
+	text-decoration: none;
+	text-fill-color: white;
+}
+
+.form-horizontal {
+	margin: 50px;
+}

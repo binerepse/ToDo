@@ -5,6 +5,10 @@
 	font-family: "Fira Sans", sans-serif;
 
 }
+
+.logout {
+	padding-right: 30px;
+}
 .col-sm-3 {
 	padding-bottom: 1px; 
 }
@@ -31,7 +35,7 @@
 	border-radius: 20px;
 
 }
-#vnosOpravila, #izbiraRoka, #izbiraKategorije, #sel1 {
+#vnosOpravila, #izbiraRoka, #izbiraKategorije, #sel1, #opisOpravila {
 	font-weight: 400;
 }
 
