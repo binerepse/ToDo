@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Seznam opravil</title>
-		<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="oblikovanje.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -25,17 +25,17 @@
 		<hr>
 			<div class="row">
 				<div class="col-sm-3">
-					<label>Vnesi ime opravila: <input type="text" class="form-control" id="vnosOpravila"></label>
+					<label>ime opravila: <input type="text" class="form-control" id="vnosOpravila"></label>
 				</div>
 				<div class="col-sm-3">
-					<label>Določi rok opravila: <input type="text" class="form-control" id="izbiraRoka"></label>
+					<label>rok opravila: <input type="text" class="form-control" id="izbiraRoka"></label>
 				</div>
 				<div class="col-sm-3">
-					<label>Določi kategorijo opravila: <input type="text" class="form-control" id="izbiraKategorije" value="Splošno"></label>
+					<label>kategorija opravila: <input type="text" class="form-control" id="izbiraKategorije" value="Splošno"></label>
 				</div>
 				<div class="col-sm-3">
 					<div class="form-group">
-					  <label for="sel1">Izberi prioriteto: 
+					  <label for="sel1">prioriteta: 
 					  <select class="form-control" id="sel1" >
 					    <option>1</option>
 					    <option>2</option>
@@ -50,7 +50,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="form-group">
-					  <label for="opis">Opis opravila:</label>
+					  <label for="opis">opis: </label>
 					  <textarea class="form-control" rows="2" id="opisOpravila"></textarea>
 					</div>
 					<input type="button" class="btn btn-success" id="dodajOpravilo" value="Dodaj">
@@ -64,7 +64,7 @@
 		<div class="row">
 			<div class="col-sm-8">
 				<div class="panel panel-default" id="todoPanel">
-					<div class="panel-body">OPRAVITI</div>
+					<div class="panel-body">opraviti</div>
 				</div>
 				<div class="panel-group" id="todo">
 					
@@ -72,7 +72,7 @@
 			</div>
 			<div class="col-sm-4">	
 				<div class="panel panel-default" id="donePanel">
-					<div class="panel-body">OPRAVLJENO</div>
+					<div class="panel-body">opravljeno</div>
 				</div>
 				<div class="panel-group" id="done">
 				
