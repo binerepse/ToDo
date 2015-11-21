@@ -1,8 +1,8 @@
 
 .body {
-
 	font-weight: 500;
-	background-image: url("cork-board.jpg");
+	background-color: #6c7a89;
+	font-family: "Fira Sans", sans-serif;
 
 }
 .col-sm-3 {
@@ -10,13 +10,12 @@
 }
 .container-fluid {
 	width: 60%;
-	background-color:  #f2d489;
+	background-color:  #bdc3c7;
 }
 .container-fluid h1 {
 	text-align: center;
 	padding: 2%;
-	font-family: "Coming soon", cursive;	
-	font-weight: 600;
+	font-weight: 500;
 
 }
 :not(.container-fluid h1, #novoOpravilo){
@@ -24,7 +23,6 @@
 }
 .add {
 	display: none;
-	font-family: "Coming soon", cursive;	
 
 }
 #novoOpravilo {
@@ -44,19 +42,14 @@
 #todoPanel {
 	text-align: center;
 	font-size: 130%;
-	font-family: "Coming soon", cursive;
 }
 
 #donePanel {
 	text-align: center;
 	font-size: 130%;
-	font-family: "Coming soon", cursive;
 
 }
-#todo, #done {
-	font-family: "Coming soon", cursive;
 
-}
 #icon {
 	float: right;
 	color: black;
