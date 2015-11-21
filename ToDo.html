@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Seznam opravil</title>
+		<link rel="stylesheet" type="text/css" href="oblikovanje.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="skripta.js"></script>
+	</head>
+	<body class="body">
+	<div class="container-fluid">
+		<h1>Seznam opravil</h1>
+		<hr>
+		<div class="row" id="top">
+			<div class="col-sm-3">
+				<label>Vnesi ime opravila: <input type="text" class="form-control" id="vnosOpravila"></label>
+			</div>
+			<div class="col-sm-3">
+				<label>Določi rok opravila: <input type="text" class="form-control" id="izbiraRoka"></label>
+			</div>
+			<div class="col-sm-3">
+				<label>Določi kategorijo opravila: <input type="text" class="form-control" id="izbiraKategorije"></label>
+			</div>
+			<div class="col-sm-3">
+				<div class="form-group">
+				  <label for="sel1">Izberi prioriteto: </label>
+				  <select class="form-control" id="sel1">
+				    <option>1</option>
+				    <option>2</option>
+				    <option>3</option>
+				    <option>4</option>
+				    <option>5</option>
+				  </select>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="form-group">
+				  <label for="opis">Opis opravila:</label>
+				  <textarea class="form-control" rows="2" id="opisOpravila"></textarea>
+				</div>
+				<input type="button" class="btn btn-success" id="dodajOpravilo" value="Dodaj">
+			</div>
+			
+		</div>
+		
+		
+		<hr>
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="panel panel-default" id="todoPanel">
+					<div class="panel-body">OPRAVITI</div>
+				</div>
+				<div class="panel-group" id="todo">
+					
+				</div>
+			</div>
+			<div class="col-sm-4">	
+				<div class="panel panel-default" id="donePanel">
+					<div class="panel-body">OPRAVLJENO</div>
+				</div>
+				<div class="panel-group" id="done">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

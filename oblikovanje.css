@@ -1,0 +1,40 @@
+
+.body {
+	background-color: #7f8c8d;
+	
+}
+.col-sm-3 {
+	padding-bottom: 1px; 
+}
+.container-fluid {
+	width: 60%;
+}
+.container-fluid h1 {
+	text-align: center;
+	padding: 2%;
+}
+
+#vnosOpravila, #izbiraRoka, #izbiraKategorije {
+	font-weight: 400;
+}
+#dodajOpravilo {
+	float: right;
+}
+
+#todoPanel {
+	text-align: center;
+	font-size: 130%;
+}
+
+#donePanel {
+	text-align: center;
+	font-size: 130%
+}
+
+#icon {
+	float: right;
+	color: black;
+}
+#icon:hover {
+	color: green;
+}
