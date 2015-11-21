@@ -13,7 +13,15 @@
 	text-align: center;
 	padding: 2%;
 }
+.add {
+	display: none;
+}
+#novoOpravilo {
+	display: table;
+	margin: 20px auto;
+	border-radius: 20px;
 
+}
 #vnosOpravila, #izbiraRoka, #izbiraKategorije {
 	font-weight: 400;
 }

@@ -13,43 +13,51 @@
 	<body class="body">
 	<div class="container-fluid">
 		<h1>Seznam opravil</h1>
+		
+		<div class="new">
+		<button class="btn btn-default" id="novoOpravilo">
+			<span class="glyphicon glyphicon-plus"></span>
+		</button>
+		</div>
+		<div class="add">
 		<hr>
-		<div class="row" id="top">
-			<div class="col-sm-3">
-				<label>Vnesi ime opravila: <input type="text" class="form-control" id="vnosOpravila"></label>
-			</div>
-			<div class="col-sm-3">
-				<label>Določi rok opravila: <input type="text" class="form-control" id="izbiraRoka"></label>
-			</div>
-			<div class="col-sm-3">
-				<label>Določi kategorijo opravila: <input type="text" class="form-control" id="izbiraKategorije"></label>
-			</div>
-			<div class="col-sm-3">
-				<div class="form-group">
-				  <label for="sel1">Izberi prioriteto: </label>
-				  <select class="form-control" id="sel1">
-				    <option>1</option>
-				    <option>2</option>
-				    <option>3</option>
-				    <option>4</option>
-				    <option>5</option>
-				  </select>
+			<div class="row">
+				<div class="col-sm-3">
+					<label>Vnesi ime opravila: <input type="text" class="form-control" id="vnosOpravila"></label>
+				</div>
+				<div class="col-sm-3">
+					<label>Določi rok opravila: <input type="text" class="form-control" id="izbiraRoka"></label>
+				</div>
+				<div class="col-sm-3">
+					<label>Določi kategorijo opravila: <input type="text" class="form-control" id="izbiraKategorije" value="Splošno"></label>
+				</div>
+				<div class="col-sm-3">
+					<div class="form-group">
+					  <label for="sel1">Izberi prioriteto: </label>
+					  <select class="form-control" id="sel1" >
+					    <option>1</option>
+					    <option>2</option>
+					    <option selected>3</option>
+					    <option>4</option>
+					    <option>5</option>
+					  </select>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="form-group">
-				  <label for="opis">Opis opravila:</label>
-				  <textarea class="form-control" rows="2" id="opisOpravila"></textarea>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="form-group">
+					  <label for="opis">Opis opravila:</label>
+					  <textarea class="form-control" rows="2" id="opisOpravila"></textarea>
+					</div>
+					<input type="button" class="btn btn-success" id="dodajOpravilo" value="Dodaj">
 				</div>
-				<input type="button" class="btn btn-success" id="dodajOpravilo" value="Dodaj">
+				
 			</div>
-			
-		</div>
-		
-		
 		<hr>
+		</div>	
+		
+		
 		<div class="row">
 			<div class="col-sm-8">
 				<div class="panel panel-default" id="todoPanel">
