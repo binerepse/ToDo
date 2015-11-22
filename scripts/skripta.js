@@ -22,11 +22,13 @@ $(document).ready(function(){
 			//$("#todo").append("<li class=\"list-group-item\"><input type=\"checkbox\" class=\"checkbox\">"+opravilo+"</li>");	
 			stevecOpravil = stevecOpravil + 1;
 			seznamOpravil.push(opravilo);
-			
 			$(".add").toggle();
 			$("#novoOpravilo").toggle();	
 			$("#todo").append("<div class=\"panel panel-default\"><div class=\"panel-heading\"><h4 class=\"panel-title\"><a data-toggle=\"collapse\" data-parent=\"#todo\" href=\"#collapse"+stevecOpravil+"\">"+opravilo+"<a href=\"#\"><span class=\"glyphicon glyphicon-ok\" id=\"icon\"></span></a></a></h4></div><div id=\"collapse"+stevecOpravil+"\" class=\"panel-collapse collapse in\"><div class=\"panel-body\">"+opis+"</div></div></div>");
-			
+			$("#vnosOpravila").val("");
+			$("#izbiraRoka").val("");
+			$("#izbiraKategorije").val("");
+			$("#opisOpravila").val("");
 		}else{
 			alert("Poskusili ste dodati prazno opravilo, ali pa opravilo ki že obstaja.");
 		}
