@@ -34,7 +34,7 @@ $(document).ready(function(){
 		}
 	});
 	$(document).on("click", "#icon" ,function(){
-		$(this).parent().parent().parent().parent().appendTo("#done");
+		$(this).parent().parent().parent().parent().prependTo("#done");
 		$(this).remove();
 		
 	});
