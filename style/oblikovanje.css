@@ -1,5 +1,5 @@
 .body {
-	font-weight: 500;
+	font-weight: 400;
 	background-color: #6c7a89;
 	font-family: "Fira Sans", sans-serif;
 }
@@ -17,7 +17,9 @@
 	text-align: center;
 	padding: 2%;
 	font-weight: 500;
-
+}
+:not(.container-fluid h1){
+	font-weight: 400;
 }
 .add {
 	display: none;
